@@ -1,11 +1,15 @@
 #include <stdio.h>
 /**
- * main- serve as the entry point of the program
+ * main - print the string in the put function
  *
- * return: By default returns zero if not error otherwise returns non-zero value.
+ * Description: Using the main function
+ * this program prints "programming is like building a multilingual  puzzle
+ * Return:0         
  */
 int main(void)
 {
+
 	printf("with proper grammar, but the outcome is a piece of art,\n");
 		return (0);
+
 }
