@@ -3,7 +3,8 @@
 
 /**
  *  main- Serves as the entry point for the program
- *   
+ *  Description: Using the main function
+ *  
  *  Return: By default returns zero if no erros otherwise returns non-zero value.
  */
 int main(void)
