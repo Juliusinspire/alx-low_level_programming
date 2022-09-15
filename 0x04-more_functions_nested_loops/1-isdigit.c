@@ -1,3 +1,5 @@
+1-isdigit.c
+
 #include "main.h"
 
 #include <ctype.h>
@@ -6,11 +8,11 @@
 
 /**
  *
- *  * _isupper - function that checks for alphabetic character
+ *  * _isdigit - function that checks a digit
  *
  *   *
  *
- *    * @c: return char type
+ *    * @c: return int type
  *
  *     *
  *
@@ -20,15 +22,15 @@
 
 
 
-int _isupper(int c)
+int _isdigit(int c)
 
 {
 
-		int i = isupper(c);
+		int i = isdigit(c);
 
 
 
-		if (i > 0)
+			if (i > 0)
 
 					{
 
