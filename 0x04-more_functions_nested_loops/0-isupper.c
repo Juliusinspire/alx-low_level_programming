@@ -5,17 +5,14 @@
 
 
 /**
+ * _isupper - function that checks for alphabetic character
  *
- *  * _isupper - function that checks for alphabetic character
  *
- *   *
  *
- *    * @c: return char type
+ * @c: return char type
  *
- *     *
  *
- *      * Return: return 0 on success and 1 on fail
- *
+ * Return: 0
  */
 
 
@@ -24,22 +21,18 @@ int _isupper(int c)
 
 {
 
-		int i = isupper(c);
+int i = isupper(c);
 
 
+	if (i > 0)
+	{
+		return (1);
+	}
 
-				if (i > 0)
+	else
+		{
+			return (0);
 
-					{
-
-						return (1);
-					}
-
-				else
-
-						{
-								return (0);
-
-										}
+		}
 
 }
