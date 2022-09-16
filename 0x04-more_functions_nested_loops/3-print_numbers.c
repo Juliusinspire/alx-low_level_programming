@@ -1,16 +1,19 @@
-#include "main.h"
+include "holberton.h"
+
 /**
- * main - check the code
- *
- * Return: Always 0.
+ *  * print_numbers -  checks for checks for a digit (0 through 9).
+ *   *
+ *    * Return: Always 0.
  */
-int main(void)
+void print_numbers(void)
 {
+		int a;
 
-	print_numbers();
-
-
-
-	return (0);
-
+				for (a = 48; a < 58; a++)
+					{
+								_putchar(a);
+									}
+				_putchar('\n');
 }
+Footer
+

@@ -1,4 +1,3 @@
-1-isdigit.c
 
 #include "main.h"
 
@@ -7,7 +6,6 @@
 
 
 /**
- *
  *  * _isdigit - function that checks a digit
  *
  *   *
@@ -30,7 +28,7 @@ int _isdigit(int c)
 
 
 
-			if (i > 0)
+					if (i > 0)
 
 					{
 
