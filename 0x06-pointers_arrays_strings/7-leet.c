@@ -4,23 +4,40 @@
  * @x: param x
  * Return: a string
  */
-char *leet(char *x)
+char *leet(char *s)
+
 {
-	int a = 0, b, l = 5;
-	char tr[5] = {'A', 'E', 'O', 'T', 'L'};
-	char trw[5] = {'4', '3', '0', '7', '1'};
 
-	while (x[a])
+	int a[11] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
+
+	int b[11] = {'4', '4', '3', '3', '0', '0', '7', '7', '1', '1'};
+
+
+
+	int i, j;
+
+
+
+	for (j = 0; s[j] != '\0'; j++)
+
 	{
-										b = 0;
 
-	while (b < l)
+		for (i = 0; a[i] != '\0'; i++)
+
 		{
-		if (x[a] == tr[b] || x[a] - 32 == tr[b])
-		[a] = trw[b];
-		b++;
+
+			if (s[j] == a[i])
+
+			{
+
+				s[j] = b[i];
+
+			}
+
 		}
-		a++;
+
 	}
-		return (x);
+
+	return (s);
+
 }
